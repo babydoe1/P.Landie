@@ -7,6 +7,12 @@ a {
     text-decoration: none;
     display: inline-block;
 }
+li{
+    list-style: none;
+}
+img { 
+    max-width: 100%; 
+}
 .header {
     background-image: url(images/designer_1.png);
     background-size: cover;
@@ -103,4 +109,59 @@ p {
 .four {
     float: right;
 }
-
+.rectangle {
+    position: absolute;
+    max-width: 100%;
+}
+.outro {
+    width: 600px;
+    position: relative;
+    top: -600px;
+    left: 300px;
+    text-align: center;
+}
+.number{
+    color: #ffffff;
+    background-color: #111B47;
+}
+footer{
+    background-color: #E7ECFF;
+}
+.footerlandie{
+    border-bottom: 1px solid #B0B8BC;
+    padding: 40px;
+}
+.footerlandie p{
+    display: inline-block;
+    margin-right: 350px;
+    
+}
+.footerlist {
+    color: #6F7CB2;
+    display: flex;
+    padding: 20px 40px;
+}
+.left {
+    float: left;
+    margin-right: 300px;
+}
+.left li{
+    padding-right: 50px;
+}
+.right {
+    float: right;
+    margin-left: 200px;
+}
+.right li{
+    padding-left: 30px;
+}
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
